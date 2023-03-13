@@ -15,7 +15,22 @@
 
 body {
   margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 100%;
+  background-color: #d6457c;
+}
+
+.homeBg {
+  /* background-color: linear-gradient(from left, #201616, #ff69b4); */
+  background-image: url('./assets/home.jpg');
+  background-image: linear-gradient(
+      to right,
+      rgba(32, 22, 22, 1),
+      rgba(214, 69, 124, 1)
+    ),
+    url('./assets/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  background-blend-mode: screen;
 }

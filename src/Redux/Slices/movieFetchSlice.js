@@ -5,7 +5,7 @@ const initialState = {
   brands: [],
 };
 
-export const fetchCards = createAsyncThunk('fetchCards', async () => {
+export const fetchBrands = createAsyncThunk('fetchBrands', async () => {
   const { data } = await axios.get(
     // 'http://phone-specs-api.azharimm.dev/infinix_hot_12-11498',
     // 'http://phone-specs-api.azharimm.dev/brands/infinix-phones-119',
@@ -14,12 +14,12 @@ export const fetchCards = createAsyncThunk('fetchCards', async () => {
   return data.data;
 });
 
-const cardSlice = createSlice({
-  name: 'fetchCards',
+const brandSlice = createSlice({
+  name: 'fetchBrands',
   initialState,
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase(fetchCards.fulfilled, (state, action) => {
+    builder.addCase(fetchBrands.fulfilled, (state, action) => {
       const newState = { ...state };
       newState.brands = action.payload;
       return newState;
@@ -27,4 +27,4 @@ const cardSlice = createSlice({
   },
 });
 
-export default cardSlice.reducer;
+export default brandSlice.reducer;

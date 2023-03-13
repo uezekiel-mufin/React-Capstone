@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   menuState: false,
+  title: 'Home',
 };
 
 const menuSlice = createSlice({

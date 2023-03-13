@@ -6,6 +6,9 @@ import Home from './components/Home';
 import './index.css';
 import store from './Redux/store';
 import Navbar from './components/Navbar';
+import Detail from './components/Detail';
+import Phones from './components/Phones';
+import Specs from './components/Specs';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +16,20 @@ const router = createBrowserRouter([
     element: <Navbar />,
     children: [
       {
-        path: '/home',
+        path: '/',
         element: <Home />,
+      },
+      {
+        path: '/brands/:slug',
+        element: <Phones />,
+      },
+      {
+        path: '/brands/phones/:slug',
+        element: <Detail />,
+      },
+      {
+        path: '/brands/phones/details/:slug',
+        element: <Specs />,
       },
     ],
   },

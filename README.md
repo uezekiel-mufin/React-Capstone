@@ -25,9 +25,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 React<a name="about-project"></a>
+# 📖 React Capstone Project<a name="about-project"></a>
 
-** Space Traveler's Hub **
+** My Phone Spec **
 
 A travel service to space!
 
@@ -143,7 +143,7 @@ If you like this project, give it a `star` and let me know what you like in part
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the whole Microverse community for their help and contributions towards this project.
+I would like to thank the whole Microverse community for their help and contributions towards this project and also to the original designer [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for such a wonderful design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -11,26 +11,30 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 body {
   margin: 0;
-  width: 100%;
-  background-color: #d6457c;
+  width: 398px;
+  display: flex;
+  background-color: rgb(250, 214, 220);
+  justify-content: center;
 }
 
 .homeBg {
-  /* background-color: linear-gradient(from left, #201616, #ff69b4); */
+  background-color: rgba(0, 0, 0, 0.8);
   background-image: url('./assets/home.jpg');
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
       rgba(32, 22, 22, 1),
       rgba(214, 69, 124, 1)
     ),
-    url('./assets/home.jpg');
+    url('./assets/home.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 200px;
-  background-blend-mode: screen;
+  background-blend-mode: color;
 }

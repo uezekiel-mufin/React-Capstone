@@ -8,7 +8,7 @@ const Header = () => {
 
   const title = useSelector((state) => state.menu.title);
   return (
-    <div className="text-white flex justify-between w-full items-center px-3 py-5  flex-1 shadow-2xl border border-solid">
+    <div className="text-white flex justify-between w-[398px] items-center px-3 py-5  flex-1 shadow-2xl border border-rose-800 border-solid">
       <span onClick={() => navigate(-1)} aria-hidden="true">
         <MdArrowBackIosNew className="h-5 w-5" />
       </span>

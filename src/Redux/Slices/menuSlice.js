@@ -9,18 +9,13 @@ const menuSlice = createSlice({
   name: 'menuSlice',
   initialState,
   reducers: {
-    openMenu: (state) => {
+    setTitle: (state, action) => {
       const newState = { ...state };
-      newState.menuState = true;
-      return newState;
-    },
-    closeMenu: (state) => {
-      const newState = { ...state };
-      newState.menuState = false;
+      newState.title = action.payload;
       return newState;
     },
   },
 });
 
 export default menuSlice.reducer;
-export const { openMenu, closeMenu } = menuSlice.actions;
+export const { setTitle } = menuSlice.actions;

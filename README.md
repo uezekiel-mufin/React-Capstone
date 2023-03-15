@@ -27,7 +27,8 @@
 
 # 📖 React Capstone Project<a name="about-project"></a>
 
-** My Phone Specs ** [Description of project]()
+** My Phone Specs **
+[Description of project](https://www.loom.com/share/671e21bc8fe44f47a2b367d0d1dbddba)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,20 +38,22 @@
 <ul>
   <li><a href="https://reactjs.org/">ReactJS</a></li>
   <li><a href="https://reactrouter.com/en/main">React Router</a></li>
+  <li><a href="https://reactrouter.com/en/main">Reduc Toolkit</a></li>
 </ul>
 
 ### Key Features <a name="key-features"></a>
 
-- **Reseve and Cancel Rockets and Missions**
-
-  - The website that displays a list of Rockets/Missions and allows you to add
-    and remove them from your storage.
+- **Display list of brands to select from on app load**
+- **Display list of phones to select from when a brand is selected**
+- **Display list of phone attributes and phone specification button to show you
+  the specs of the phone**
+- **Display in details the specs of the phone**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo](https://space-travelers-hub-mx3s.onrender.com)
+[Live Demo](https://react-capstone-nine.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,14 +80,14 @@ To clone this repository to your desired folder, follow the steps below:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Ezzywealth/space_travelers_hub
+  git clone https://github.com/Ezzywealth/React-Capstone
 ```
 
 **Using GitHub Desktop app**
 
 - Follow the steps below
 
-  - Visit this link "https://github.com/Ezzywealth/space_travelers_hub"
+  - Visit this link "https://github.com/Ezzywealth/React-Capstone"
   - Click the green button labelled "code"
   - Select the "Open with GitHub Desktop" option
   - After the GitHub Desktop add opens, click the "clone repo" button
@@ -113,12 +116,6 @@ You can deploy this project by:
 - GitHub: [@Ezzywealth](https://github.com/Ezzywealth)
 - Twitter: [@EzzyWealth](https://twitter.com/EzzyWealth)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezekiel-udiomuno)
-
-👤 **Mohi**
-
-- GitHub: [@Ezzywealth](https://github.com/mohisa302)
-- Twitter: [@EzzyWealth](https://twitter.com/Kholochelam)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohadese-sadeghi)
 
 ## 🔭 Future Features <a name="future-features"></a>
 

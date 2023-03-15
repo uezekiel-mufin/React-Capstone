@@ -47,11 +47,6 @@ const brandSlice = createSlice({
       newState.loading = false;
       return newState;
     },
-    setLoadingTrue: (state) => {
-      const newState = { ...state };
-      newState.loading = false;
-      return newState;
-    },
   },
   extraReducers: (builder) => {
     builder.addCase(fetchBrands.pending, (state) => {

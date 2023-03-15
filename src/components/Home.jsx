@@ -8,7 +8,7 @@ import Brands from './Brands';
 function Home() {
   const dispatch = useDispatch();
   const { brands } = useSelector((state) => state.brands);
-
+  const { loading } = useSelector((state) => state.brands);
   useEffect(() => {
     dispatch(fetchBrands());
     dispatch(setTitle('Brands'));
@@ -18,9 +18,14 @@ function Home() {
     dispatch(fetchBrands(link));
   };
 
-  if (brands.length < 1) {
-    return <h2>Loading........</h2>;
+  if (loading) {
+    return (
+      <h2 className="h-screen animate-pulse text-white flex items-center justify-center text-xl">
+        Loading.........
+      </h2>
+    );
   }
+  console.log(brands);
   return (
     <main className="">
       <article className=" homeBg flex  flex-col text-white items-end p-8">

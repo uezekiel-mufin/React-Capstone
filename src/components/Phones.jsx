@@ -16,10 +16,13 @@ const Phones = () => {
   }, [slug]);
 
   if (phones.length < 1) {
-    return <h2>No Phones Available</h2>;
+    return (
+      <h2 className="h-screen animate-pulse text-white flex items-center justify-center text-xl">
+        Loading.........
+      </h2>
+    );
   }
 
-  const handlePhoneClick = () => {};
   return (
     <main className="">
       <article className=" homeBg flex flex-col text-white items-end px-4 py-12">
@@ -41,7 +44,6 @@ const Phones = () => {
         {phones.map((phone) => (
           <Link key={phone.slug} to={`/brands/phones/${phone.slug}`}>
             <section
-              onClick={() => handlePhoneClick(phone.details)}
               aria-hidden="true"
               className="border border-rose-400 w-full h-full"
             >

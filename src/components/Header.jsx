@@ -1,17 +1,15 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { MdArrowBackIosNew, MdKeyboardVoice, MdSettings } from 'react-icons/md';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const navigate = useNavigate();
-
   const title = useSelector((state) => state.menu.title);
   return (
     <div className="text-white flex justify-between w-[398px] items-center px-3 py-5  flex-1 shadow-2xl border border-rose-800 border-solid">
-      <span onClick={() => navigate(-1)} aria-hidden="true">
+      <Link to="..">
         <MdArrowBackIosNew className="h-5 w-5" />
-      </span>
+      </Link>
       <h2 className="text-2xl">{title}</h2>
       <div className="flex gap-6">
         <span>

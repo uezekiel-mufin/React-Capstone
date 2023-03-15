@@ -1,4 +1,4 @@
-/* eslint-disable valid-typeof */
+/* eslint-disable operator-linebreak */
 import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { HiArrowCircleRight } from 'react-icons/hi';
@@ -20,7 +20,11 @@ const Detail = () => {
   }, [slug]);
 
   if (!details.brand) {
-    return <h2>Loading........</h2>;
+    return (
+      <h2 className="h-screen animate-pulse text-white flex items-center justify-center text-xl">
+        Loading.........
+      </h2>
+    );
   }
 
   const handleSpecification = () => {
@@ -33,8 +37,8 @@ const Detail = () => {
       <article className=" flex text-white items-center justify-between px-8 py-12">
         <img
           src={
-            details.thumbnail
-            || '/src/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash (1).jpg'
+            details.thumbnail ||
+            '/src/assets/rahul-chakraborty-xsGxhtAsfSA-unsplash (1).jpg'
           }
           alt=""
           className="rounded-lg h-40"

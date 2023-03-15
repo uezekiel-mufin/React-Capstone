@@ -13,7 +13,11 @@ const Specs = () => {
   }, []);
 
   if (!specs) {
-    return <h3>Loading........</h3>;
+    return (
+      <h2 className="h-screen animate-pulse text-white flex items-center justify-center text-xl">
+        Loading.........
+      </h2>
+    );
   }
   return (
     <main className="">

@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { HiOutlineArrowCircleRight } from 'react-icons/hi';
@@ -18,4 +19,4 @@ const Brands = ({ brand }) => (
 );
 
 export default Brands;
-Brands.propTypes = { brand: PropTypes.objectOf.isRequired };
+Brands.propTypes = { brand: PropTypes.object.isRequired };

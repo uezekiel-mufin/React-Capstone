@@ -94,8 +94,14 @@ To clone this repository to your desired folder, follow the steps below:
 
 ### Usage
 
-To run the project, execute the following command: **npm install** **npm run
-dev**
+To run the project, execute the following command:
+
+- **npm install**
+- **npm run dev**
+
+TO test the project using react testing library, execute the following command:
+
+- **npm run test**
 
 ### Deployment
 

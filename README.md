@@ -94,9 +94,8 @@ To clone this repository to your desired folder, follow the steps below:
 
 ### Usage
 
-To run the project, execute the following command:
-
-**Click the "Go Live" button on your IDE(VS Code in this case)**
+To run the project, execute the following command: **npm install** **npm run
+dev**
 
 ### Deployment
 

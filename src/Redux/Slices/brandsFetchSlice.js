@@ -11,14 +11,14 @@ const initialState = {
 
 export const fetchBrands = createAsyncThunk('fetchBrands', async () => {
   const { data } = await axios.get(
-    'http://phone-specs-api.azharimm.dev/brands',
+    'https://phone-specs-api.azharimm.dev/brands',
   );
   return data.data;
 });
 
 export const fetchPhones = createAsyncThunk('fetchPhones', async (slug) => {
   const { data } = await axios.get(
-    `http://phone-specs-api.azharimm.dev/brands/${slug}`,
+    `https://phone-specs-api.azharimm.dev/brands/${slug}`,
   );
   return data.data.phones;
 });
@@ -27,7 +27,7 @@ export const fetchPhoneDetails = createAsyncThunk(
   'fetchPhoneDetails',
   async (slug) => {
     const { data } = await axios.get(
-      `http://phone-specs-api.azharimm.dev/${slug}`,
+      `https://phone-specs-api.azharimm.dev/${slug}`,
     );
     return data.data;
   },

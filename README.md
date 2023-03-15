@@ -27,9 +27,7 @@
 
 # 📖 React Capstone Project<a name="about-project"></a>
 
-** My Phone Spec **
-
-A travel service to space!
+** My Phone Specs ** [Description of project]()
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +43,8 @@ A travel service to space!
 
 - **Reseve and Cancel Rockets and Missions**
 
-  - The website that displays a list of Rockets/Missions and allows you to add and remove them from your storage.
+  - The website that displays a list of Rockets/Missions and allows you to add
+    and remove them from your storage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,13 +136,17 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, give it a `star` and let me know what you like in particular.
+If you like this project, give it a `star` and let me know what you like in
+particular.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the whole Microverse community for their help and contributions towards this project and also to the original designer [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for such a wonderful design.
+I would like to thank the whole Microverse community for their help and
+contributions towards this project and also to the original designer
+[Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for such a
+wonderful design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -27,7 +27,7 @@
 
 # 📖 React Capstone Project<a name="about-project"></a>
 
-** My Phone Specs **
+**Ezzy Phone Specs**
 [Description of project](https://www.loom.com/share/671e21bc8fe44f47a2b367d0d1dbddba)
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -38,7 +38,7 @@
 <ul>
   <li><a href="https://reactjs.org/">ReactJS</a></li>
   <li><a href="https://reactrouter.com/en/main">React Router</a></li>
-  <li><a href="https://reactrouter.com/en/main">Reduc Toolkit</a></li>
+  <li><a href="https://redux.js.org/redux-toolkit/overview">Reduc Toolkit</a></li>
 </ul>
 
 ### Key Features <a name="key-features"></a>

@@ -91,5 +91,4 @@ const brandSlice = createSlice({
 });
 
 export default brandSlice.reducer;
-export const { setPhoneSpecs, setLoadingFalse, setLoadingTrue } =
-  brandSlice.actions;
+export const { setPhoneSpecs, setLoadingFalse } = brandSlice.actions;

@@ -1,12 +1,11 @@
 import React from 'react';
 import '@testing-library/jest-dom';
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import TestRenderer, { act } from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import Home from '../components/Home';
 import store from '../Redux/store';
-import { fetchBrands } from '../Redux/Slices/brandsFetchSlice';
 import { setLoadingFalse } from '../Redux/Slices/brandsFetchSlice';
 
 describe('App', () => {

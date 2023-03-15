@@ -25,7 +25,6 @@ function Home() {
       </h2>
     );
   }
-  console.log(brands);
   return (
     <main className="">
       <article className=" homeBg flex  flex-col text-white items-end p-8">

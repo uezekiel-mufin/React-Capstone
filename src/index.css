@@ -26,12 +26,6 @@ body {
 .homeBg {
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url('./assets/home.jpg');
-  /* background-image: linear-gradient(
-      to right,
-      rgba(32, 22, 22, 1),
-      rgba(214, 69, 124, 1)
-    ),
-    url('./assets/home.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

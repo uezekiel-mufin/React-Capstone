@@ -26,7 +26,7 @@ const SearchInput = ({
         placeholder="search for brand"
         value={searchTexts}
         onInput={(e) => handleSearch(e.target.value)}
-        className="text-rose-900 rounded-lg px-3 py-1 w-[180px] placeholder:text-sm placeholder:text-rose-900 placeholder:italic focus:outline-none bg-rose-300"
+        className="text-rose-900 rounded-lg px-3 py-1 w-[175px] placeholder:text-sm placeholder:text-rose-900 placeholder:italic focus:outline-none bg-rose-300"
       />
     </div>
   );
